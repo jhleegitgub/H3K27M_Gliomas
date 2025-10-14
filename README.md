@@ -8,6 +8,7 @@
 │  ├─ run_cell_type.py                    # 셀타입 라벨 처리/매핑/요약
 │  └─ run_expression_network.py           # GRN 추론 + driver-node 분석(TENET/netctrl 래퍼)
 └─ README.md
+```
 
 ## 2) Data sources & provenance
 
