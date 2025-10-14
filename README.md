@@ -1,4 +1,5 @@
 # 1) What’s in this repo
+.
 ├─ data/
 │  └─ PortalK27M_Metadata.vh20180...      # 예: 메타데이터/라벨 테이블(소용량만)
 ├─ script/
