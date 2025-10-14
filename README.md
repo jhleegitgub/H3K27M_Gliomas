@@ -13,5 +13,5 @@
 ## 2) Data sources & provenance
 
 Primary paper / dataset
-PubMed: https://pubmed.ncbi.nlm.nih.gov/29674595/
-GEO (GSE102130): https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE102130
+  PubMed: https://pubmed.ncbi.nlm.nih.gov/29674595/
+  GEO (GSE102130): https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE102130
