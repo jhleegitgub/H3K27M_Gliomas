@@ -1,12 +1,20 @@
 ## 1) What’s in this repo
 ```text
-├─ data/
-│  └─ PortalK27M_Metadata.vh20180...      # 예: 메타데이터/라벨 테이블(소용량만)
-├─ script/
-│  └─ PreAnalysis.bash                    # 환경셋업·다운로드·전처리(파이프라인 진입점)
-├─ run_cell_type.py                       # 셀타입 라벨 처리/매핑/요약 (루트)
-├─ run_expression_network.py              # GRN 추론 + driver-node 분석(TENET/netctrl 래퍼) (루트)
-└─ README.md
+H3K27M_Gliomas/
+├── data/
+│   ├── raw/                  # 원본: RSEM 행렬, metadata, hierarchy, tSNE  (git ignore)
+│   └── processed/            # 전처리 산출물: AnnData, pseudobulk, mean expr
+├── results/
+│   ├── figures/              # 그림 (pdf/png)
+│   └── tables/               # 요약 테이블 (tsv/csv)
+├── scripts/
+│   ├── 01_Preprocess/        # RSEM+메타데이터 통합, 라벨링
+│   ├── 02_CellChat_NicheNet/ # 리간드–수용체 네트워크
+│   ├── 03_SCENIC_pySCENIC/   # regulon(AUCell) 허브
+│   ├── 04_CompensationNet/   # PDGFRA↔ERBB/FGFR 보상망
+│   └── 05_ModulePreservation/# WGCNA 모듈 보존(환자 vs PDX/GS/DGC)
+└── README.md
+
 ```
 ## 2) Data sources & provenance
 
