@@ -1,4 +1,3 @@
-
 NAME	Sample	GenesExpressed	HousekeepingGeneExpression	Type	Cellcycle	OPC-variable	OC-like	AC-like	OPC-like
 TYPE	group	numeric	numeric	group	numeric	numeric	numeric	numeric	numeric
 BCH1126-P01-A01	BCH1126	4064	6.371650316	Malignant	-0.44186567	-1.018729626	-0.511928109	-0.523686956	0.83940171

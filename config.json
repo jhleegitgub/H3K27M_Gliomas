@@ -1,0 +1,11 @@
+{
+  "rsem_matrix_path": "data/raw/K27Mproject.RSEM.vh20170621.txt",
+  "metadata_path": "data/raw/PortalK27M_Metadata.vh20180223.txt",
+  "hierarchy_scores_path": "data/raw/PortalK27M_HierarchyPlot.vh20180223.txt",
+  "tsne_path": "data/raw/PortalK27M_tSNE.vh20180223.txt",
+  "gene_id_column": "gene",
+  "cell_id_axis": "columns",
+  "opclike_threshold": 0.25,
+  "aclike_threshold": 0.25,
+  "oclike_threshold": 0.25
+}
