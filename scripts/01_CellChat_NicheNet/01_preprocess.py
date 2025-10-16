@@ -234,14 +234,15 @@ def main():
 
     # optional: AnnData
     try:
-        import anndata as ad, scipy.sparse as sp
-        X = sp.csr_matrix(np.asarray(expr.values, dtype=np.float32))
-        adata = ad.AnnData(X=X, var=pd.DataFrame(index=expr.index), obs=meta.set_index(meta.columns[0]))
+        import anndata as ad, scipy.sparse as sp # expr: genes x cells  ->  transpose to cells x genes
+        X = sp.csr_matrix(np.asarray(expr.T.values, dtype=np.float32))
+        obs = meta.set_index(meta.columns[0])   # cells
+        var = pd.DataFrame(index=expr.index)    # genes
+        adata = ad.AnnData(X=X, obs=obs, var=var)
         adata_path = repo / "data/processed/k27m_anndata.h5ad"
         adata.write_h5ad(str(adata_path))
         print(f"[OK] wrote {adata_path}")
     except Exception as e:
         print("[WARN] skipped .h5ad export (install anndata/scipy to enable).", e)
-
 if __name__ == "__main__":
     main()
