@@ -24,6 +24,23 @@ H3K27M_Gliomas/
 │
 └─ README.md
 
+
+## 2) Data sources & provenance
+Primary paper / dataset  
+PubMed  
+https://pubmed.ncbi.nlm.nih.gov/29674595/
+
+Raw data  
+Single-cell RNA-seq (RSEM expression, metadata 등)
+https://singlecell.broadinstitute.org/single_cell/study/SCP147/single-cell-analysis-in-pediatric-midline-gliomas-with-histone-h3k27m-mutation#study-download
+
+TF list & gene sets
+Human TF list
+https://humantfs.ccbr.utoronto.ca/download.php
+
+Lineage / cell-cycle program genes, PDGFRA module genes
+Filbin et al. (Science 2018) 본문 및 보조자료에서 제공된 gene set을 다운로드하여 사용.
+
 ## 3) Analysis overview
 - 대상: Filbin et al. H3K27M single-cell 데이터 중 `Type == "Malignant"` 세포만 사용.
 - 전처리: 정규화 후 malignant 전체에서 HVG 2,000개 선택,  

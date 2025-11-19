@@ -1,2 +1,6 @@
 data/processed/*.h5ad
 data/raw/K27Mproject.RSEM.vh20170621.txt
+data/processed/K27M_malignant_HVG2000_preprocessed.RData
+data/processed/K27M_malignant_HVG2000_preprocessed.RData
+data/processed/k27m_anndata.h5ad
+data/raw/K27Mproject.RSEM.vh20170621.txt
