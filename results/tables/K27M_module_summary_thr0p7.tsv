@@ -1,0 +1,3 @@
+level	module	threshold	n_genes_total	n_genes_in_set_list	n_genes_in_set_net	mean_deg_in_set	mean_deg_other	frac_driver_in_set	frac_driver_other
+All_malignant	cellcycle	0.7	915	40	0	NA	3.25901639344262	NA	0.40327868852459
+All_malignant	PDGFRA_module	0.7	915	31	0	NA	3.25901639344262	NA	0.40327868852459

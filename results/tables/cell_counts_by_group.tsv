@@ -1,35 +1,8 @@
-Sample	StateLabel	n_cells
-BCH1126	AC-like	3
-BCH1126	OC-like	69
-BCH1126	OPC-like	169
-BCH1126	Unknown	58
-BCH836	AC-like	34
-BCH836	OC-like	52
-BCH836	OPC-like	352
-BCH836	Unknown	89
-BCH869	AC-like	231
-BCH869	OC-like	37
-BCH869	OPC-like	221
-BCH869	Unknown	3
-BCH869_DGC100	Unknown	89
-BCH869_DGC75	Unknown	165
-BCH869_GF	Unknown	68
-BCH869_GS	Unknown	290
-BCH869_PDX	Unknown	167
-BCH869_SF	Unknown	84
-MGH101	Unknown	92
-MGH104	Unknown	65
-MGH66	Unknown	442
-MUV1	AC-like	27
-MUV1	OC-like	2
-MUV1	OPC-like	112
-MUV1	Unknown	5
-MUV10	AC-like	1
-MUV10	OC-like	3
-MUV10	OPC-like	279
-MUV10	Unknown	3
-MUV5	AC-like	92
-MUV5	OC-like	167
-MUV5	OPC-like	408
-MUV5	Unknown	41
-Oligo	Unknown	138
+group	n_cells
+Cellline	696
+Filter	9
+GBM	599
+Immune cell	96
+Malignant	2259
+Oligodendrocyte	232
+PDX	167

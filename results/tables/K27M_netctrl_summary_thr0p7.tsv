@@ -1,0 +1,2 @@
+threshold	n_nodes	n_edges	n_driver	nD	n_critical	n_redundant	n_ordinary	frac_critical	frac_redundant	frac_ordinary
+0.7	915	1491	369	0.40327868852459	369	441	681	0.24748490945674	0.295774647887324	0.456740442655936

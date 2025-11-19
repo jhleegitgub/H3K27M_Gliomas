@@ -1,0 +1,2 @@
+threshold	n_genes	n_TF_in_list	n_TF_in_network	driver_TF	crit_source_TF	highdeg_TF	frac_TF_in_net	frac_driver_TF	frac_crit_TF	frac_highdeg_TF	deg_cutoff_top10pct
+0.7	915	1638	46	24	28	6	0.0502732240437158	0.521739130434783	0.608695652173913	0.130434782608696	7.60000000000002
