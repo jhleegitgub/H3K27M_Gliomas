@@ -127,7 +127,7 @@ id	gene	deg_out	deg_in	deg_total	is_driver	is_crit_source
 126	DEFB107A	2	0	2	1	1
 127	DEFB107B	1	1	2	0	0
 128	DEFB110	9	0	9	1	0
-129	DEFB118	4	1	5	0	0
+129	DEFB118	4	1	5	1	0
 130	DEFB121	2	0	2	1	0
 131	DEFB125	1	0	1	1	0
 132	DEFB128	8	3	11	0	0
@@ -277,7 +277,7 @@ id	gene	deg_out	deg_in	deg_total	is_driver	is_crit_source
 276	KRT40	1	0	1	1	1
 277	KRT71	1	0	1	1	1
 278	KRT74	0	1	1	0	0
-279	KRT78	2	1	3	1	0
+279	KRT78	2	1	3	0	0
 280	KRT79	1	1	2	0	1
 281	KRT83	0	1	1	0	0
 282	KRT85	13	8	21	0	0

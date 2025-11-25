@@ -101,7 +101,7 @@ Filbin et al. (Science 2018) 본문 및 보조자료에서 제공된 gene set을
   - `data/processed/K27M_group-AC_gene_degrees_thr0p7.tsv`
   - `data/processed/K27M_group-OC_gene_degrees_thr0p7.tsv`
 
-*용 방법
+사용 방법
 1. 위 malignant 때와 똑같이, 그룹별 edge 파일을  
    Network from File로 불러온다.
 2. 해당 그룹의 `*_gene_degrees_thr0p7.tsv`를  
